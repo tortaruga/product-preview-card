@@ -27,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/Screenshot%202024-06-13%20at%2014-02-30%20Frontend%20Mentor%20Product%20preview%20card%20component.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://tortaruga.github.io/product-preview-card/](https://tortaruga.github.io/product-preview-card/)
 
 ## My process
 
