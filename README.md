@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-product-card-with-css-grids-bQbx7CbNTt](https://www.frontendmentor.io/solutions/responsive-product-card-with-css-grids-bQbx7CbNTt)
 - Live Site URL: [https://tortaruga.github.io/product-preview-card/](https://tortaruga.github.io/product-preview-card/)
 
 ## My process
