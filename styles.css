@@ -21,12 +21,19 @@ body {
     font-weight: 500;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
 .card {
     background-color: var(--white);
     border-radius: .5rem;
     max-width: 38rem;
     min-width: 17rem;
-    margin: 3rem auto;
+    margin: auto;
  }
 
 .product-img {
