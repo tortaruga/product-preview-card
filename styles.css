@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--cream);
+    color: var(--dark-grayish-blue);
+    font-family: Montserrat, sans-serif;
+    padding: 1rem;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.card {
+    background-color: var(--white);
+    border-radius: .5rem;
+    max-width: 38rem;
+    min-width: 17rem;
+    margin: auto;
+ }
+
+.product-img {
+    --img: url('./images/image-product-mobile.jpg');
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: .5rem .5rem 0 0;
+    background: var(--img) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.product-info {
+    padding: 2rem;
+}
+
+.category {
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: .3rem;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    color: var(--dark-blue);
+    margin-block: .5rem;
+}
+
+.description {
+    line-height: 1.5;
+}
+
+.discounted-price {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    color: var(--dark-cyan);
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.original-price {
+    color: var(--dark-grayish-blue);
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: line-through;
+    font-weight: 500;
+}
+
+.add-to-cart {
+ display: flex;
+ width: 100%;
+ background: var(--dark-cyan);
+ border-radius: .5rem;
+ padding-block: 1rem;
+ justify-content: center;
+ gap: 1rem;
+ align-items: center;
+ border: none;
+ color: var(--white);
+ transition: .3s;
+ font-family: 'montserrat', sans-serif;
+ font-weight: 700;
+}
+
+.add-to-cart img {
+    width: 1rem;
+}
+
+.add-to-cart:hover {
+    cursor: pointer;
+    background-color: hsl(159, 56%, 10%);
+}
+
+footer {
+    margin-top: 3rem;
+    padding: 1rem;
+}
+
+.attribution a {
+    color: var(--dark-cyan);
+}
+
+@media screen and (min-width: 576px) {
+    .card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-bottom: 0;
+    }
+
+    .product-img {
+        --img: url('./images/image-product-desktop.jpg');
+        height: 100%;
+        width: 100%;
+        border-radius: .5rem 0 0 .5rem;
+    }
+}
